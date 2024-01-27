@@ -1,0 +1,8 @@
+[build]
+base=""
+publish="dist/form"
+command="ng build"
+[[redirects]]
+from="/"
+to="index.html"
+status=200
